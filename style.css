@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 100%;
+    background: #036042;
+    color: #fff;
+    height: 200px;
+}
+
+.name {
+    padding: 5% 0% 5% 15%;
+    font-size: 50px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    padding: 70px 0px;
+
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    font-size: 25px;
+}
+
+main {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+h2 {}
+
+.welcome {}
