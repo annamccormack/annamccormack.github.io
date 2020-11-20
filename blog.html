@@ -3,12 +3,14 @@
 
 <head>
     <title>Blog</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="styles/style.css" type="text/css" rel="stylesheet">
+    <link href="styles/blog.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header id="top">
         <h1 class="name">Anna <br>
             McCormack</h1>
         <nav>
@@ -24,11 +26,21 @@
         <div class="row">
             <div class="leftcolumn">
                 <div class="card">
-                    <h3>Post Heading</h3>
+                    <h3>Blog</h3>
+                    <ul class="postsmenu">
+                        <li> <a href="#post1" class="posts">Blog post 1</a> </li> 
+                        <li> <a href="#post2" class="posts">Blog post 2</a> </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="rightcolumn">
+                <!--blog post 1-->
+                <article class="card">
+                    <h3 id="post1">Post Heading</h3>
                     <h5>Title description & date</h5>
                     <img src="" alt="">
-                    <p> Blog Post text
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsam expedita vel rerum
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsam expedita vel rerum
                         nihil, optio assumenda, beatae rem numquam sint ratione nobis placeat, blanditiis accusantium
                         facilis impedit quibusdam earum! Dolores maiores, numquam nihil distinctio repellat molestias
                         quisquam dicta quae error. Blanditiis, animi tenetur odio accusamus eos harum totam possimus
@@ -56,24 +68,46 @@
                         perferendis perspiciatis quidem quae quaerat tempora sint nam, est placeat, nisi eveniet! Qui
                         alias enim nihil deserunt perspiciatis nostrum tenetur cumque magnam neque. Porro fugit,
                         repellat pariatur sit minima non omnis nulla, natus vel fuga modi! Distinctio voluptas, enim
-                        illum doloremque atque dolore ad dolor?
+                        illum doloremque atque dolore ad dolor?</p>
+                </article>
+                <!--blog post 2-->
+                <article class="card">
+                    <h3 id="post2">Post Heading</h3>
+                    <h5>Title description & date</h5>
+                    <img src="" alt="">
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quaerat ullam minima autem quam
+                        voluptatum eaque repellat blanditiis sapiente voluptatem? Odit tenetur, magni quos ad ipsa rerum
+                        magnam et possimus. Hic molestiae recusandae exercitationem fugiat, fuga dolores facilis culpa
+                        nam accusamus velit! Beatae consequatur provident aperiam ducimus labore exercitationem,
+                        temporibus illum illo a incidunt dolores accusamus voluptatum quod doloribus voluptatibus
+                        architecto itaque saepe voluptates aliquid inventore, nihil perspiciatis nisi excepturi! Ex
+                        ratione quis qui omnis, excepturi ab libero, ea nesciunt, itaque possimus quas! Iste, culpa id!
+                        Corrupti, et sequi rem neque aliquam quas dolores recusandae, ipsam ullam magnam eum optio
+                        omnis! Molestias dignissimos maxime quasi recusandae cumque doloremque cupiditate doloribus
+                        accusantium quidem corporis nisi obcaecati aperiam laborum nam quis assumenda pariatur
+                        necessitatibus, repellat quo ex perspiciatis, beatae a minus deleniti? Illo quae sint, eum
+                        itaque dolorum inventore suscipit consequuntur provident sequi earum totam odio doloribus
+                        placeat assumenda fugiat facilis! Architecto iure at illum beatae doloremque. Eius facilis iure
+                        ipsam voluptatem ab molestiae, esse impedit nemo nulla dolore corrupti cumque est dolorum vitae,
+                        asperiores alias quam laudantium consectetur voluptate voluptatibus incidunt in velit beatae?
+                        Fuga, quae ullam voluptate natus tempora laudantium? Cupiditate delectus omnis minima architecto
+                        non sunt unde, saepe, consectetur at nemo voluptate possimus? Repellendus et quia, expedita
+                        suscipit soluta eum animi placeat repellat alias adipisci. Illo ex quibusdam dolor aspernatur
+                        vero nihil qui fugit ipsa necessitatibus ut! Dolor excepturi non dignissimos nihil. Molestias
+                        repellat velit odio deleniti tempore eaque quas totam expedita vitae voluptatum iusto ut, ipsa
+                        sunt explicabo voluptas repudiandae et, enim numquam sapiente labore doloremque! Iusto odit sit
+                        saepe ipsum possimus sunt similique doloribus blanditiis cum neque at reprehenderit, vel
+                        praesentium quas rerum ipsa dicta non! Necessitatibus consectetur earum qui repellat iure odit
+                        recusandae consequatur doloremque nisi deleniti, voluptate sed laudantium. Odit similique nemo
+                        labore praesentium sed?
                     </p>
-                </div>
-            </div>
-            <div class="rightcolumn">
-                <div class="card">
-                    <h3>Blog entries</h3>
-                    <ul>
-                        <li> <a href="">Blog post 1</li>
-                        <li> <a href="">Blog post 2</li>
-                        <li> <a href="">Blog post 3</li>
-                        <li> <a href="">Blog post 4</li>
-                        <li> <a href="">Blog post 5</li>
-                    </ul>
-                </div>
+                </article>
             </div>
         </div>
     </main>
 </body>
 
+<footer>
+    <a href="#top">Back to top</a>
+</footer>
 </html>
