@@ -16,6 +16,14 @@ header {
     background-color: #036042;
     color: #fff;
     height: 200px;
+    width: 100%;
+}
+
+#top {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 h1 {
@@ -45,13 +53,13 @@ nav a {
 }
 
 
- h2 {
+h2 {
     font-size: 70px;
     font-weight: 800;
     padding: 10px;
 }
 
-.welcome  {
+.welcome {
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 5px;
@@ -66,13 +74,8 @@ nav a {
 
 .kawhia {
     margin: 10px 30px 10px 30px;
-    width: 80% ;
+    width: 80%;
     max-width: 550px;
 }
 
-/* @media only screen and (max-width: 600px) {} */ 
-
-
-
-
-
+/* @media only screen and (max-width: 600px) {} */

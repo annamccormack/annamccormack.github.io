@@ -5,12 +5,12 @@ main {
 
 .rightcolumn {
     float: left;
-    width: 78%;
+    width: 75%;
 }
 
 .leftcolumn {
     float: left;
-    width: 20%;
+    width: 22%;
     padding-right: 20px;
 }
 
@@ -42,9 +42,30 @@ h3 {
     padding-bottom: 10px;
 }
 
-h5 {
+h4 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+
+.blog-title {
+    padding-bottom: 10px;
+}
+
+
+
+h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+figcaption {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: italic;
 }
 
 article p {
@@ -71,4 +92,31 @@ footer a {
         width: 100%;
         padding: 0;
     }
+}
+
+/* Sprint 2 Technical blog */
+
+.boxmodel {
+    width: 500px;
+    margin: 5px 0px;
+}
+
+.Sprint2Tech figure {
+    margin: 10px 0px;
+}
+
+.padding,
+.margin {
+    height: 180px;
+    margin: 5px 0px;
+}
+
+.border {
+    height: 90px;
+    margin: 5px 0px;
+}
+
+.content {
+    height: 120px;
+    margin: 10px 0px;
 }
