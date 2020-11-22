@@ -73,6 +73,7 @@ article p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    padding: 10px 0px;
 }
 
 footer a {
@@ -94,6 +95,8 @@ footer a {
         padding: 0;
     }
 }
+
+
 
 /* Sprint 2 Technical blog */
 
@@ -120,4 +123,15 @@ footer a {
 .content {
     height: 120px;
     margin: 10px 0px;
+}
+
+/* Sprint 2 Cultural blog */
+
+.images {
+    width: 50%;
+    padding: 10px;
+}
+
+figure {
+    text-align: center;
 }
