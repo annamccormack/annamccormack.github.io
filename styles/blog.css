@@ -25,9 +25,10 @@ main {
 }
 
 .rightcolumn .card {
-    border: 5px solid #0b296b;
+    border: 2px solid #0b296b;
     padding: 30px;
     margin: 20px 0px 20px 0px;
+
 }
 
 .leftcolumn .card {
