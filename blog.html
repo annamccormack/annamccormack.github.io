@@ -17,6 +17,7 @@
         <h1 class="name">Anna <br>
             McCormack</h1>
         <nav>
+            <!--Blog post index-->
             <ul>
                 <li> <a href="index.html" class="menu">Home</a> </li>
                 <li> <a href="blog.html" class="menu">Blog</a> </li>
@@ -35,11 +36,124 @@
                         <li> <a href="#post2" class="posts">Sprint Two Technical Blog</a> </li>
                         <li> <a href="#post3" class="posts">Sprint Two Cultural Blog</a> </li>
                         <li> <a href="#post4" class="posts">Sprint Three Cultural Blog</a> </li>
+                        <li> <a href="#post5" class="posts">Sprint Three Technical Blog</a> </li>
                     </ul>
                 </div>
             </div>
 
             <div class="rightcolumn">
+
+                <!--Sprint 3 Tecnical Blog-->
+                <article class="card Sprint3Tech" id="post5">
+                    <div class="blog-title">
+                        <h3>The DOM, HTML vs CSS, Javascript</h3>
+                        <h4>Sprint Three Technical Blog | Sunday 29th November, 2020</h4>
+                        <hr>
+                    </div>
+                    <div class="blog-body">
+                        <figure>
+                            <img src="blog-images/IMG_20201129_194041.jpg" alt="Tree" class="images">
+                        </figure>
+                        <h5>An analogy to describe the differences between HTML and CSS</h5>
+                        <p>HTML defines the content and structure of a webpage. HTML would be the skeleton of a
+                            body. The skeleton holds everything together and provides the base to support organs and
+                            muscles. HTML creates all the content of a website however it doesn't do very much on its
+                            own
+                            and it won’t look very nice. This is why CSS is required to style the HTML elements. If HTML
+                            is
+                            the skeleton, then CSS is the skin. CSS changes the appearance of websites, by defining
+                            colour,
+                            fonts, layouts etc. The styling is what makes a web page more appealing to look at.</p>
+                        <br>
+                        <h5>Explain control flow and loops using an example process from everyday life.</h5>
+
+                        <p>Control flow is the order in which statements and functions are executed, which is from top
+                            to
+                            bottom, in the order that they appear. This flow can be broken up by conditional statements
+                            and
+                            loops.</p>
+
+                        <p>Loops are a way to repeatedly run some code. A condition is required to determine how long
+                            the loop will iterate.</p>
+
+                        <h6>Looping statements in JavaScript:</h6>
+                        <ul>
+                            <li>
+                                <b>For:</b> Allows us to repeatedly run some code until an expression we specify returns
+                                false.
+                            </li>
+                            <li>
+                                <b>While:</b> Repeats some code until its condition returns false.
+                            </li>
+                            <li>
+                                <b>Do… While:</b> has its conditional expression at the end, this ensures that the code
+                                inside the
+                                loop will run at least once.
+                            </li>
+                        </ul>
+                        <p>An example of control flow and loops in everyday life would be when following a recipe for a
+                            banana cake.</p>
+                        <ol>
+                            <li>Cream the butter and sugar until light and fluffy.</li>
+                            <li>Add the eggs one at a time, beating well after each addition</li>
+                            <li>Add the mashed banana and mix well.</li>
+                            <li>Stir the baking soda into the hot milk and add to the creamed mixture.</li>
+                            <li>Sift the dry ingredients together and fold through the creamed mixture.</li>
+                            <li>Scoop the mixture into a tin, and bake at 180ºC for 50 minutes or until the cake springs
+                                back when lightly touched.</li>
+                            <li>Leave in tin for 10 minutes before turning out onto a wire rack to cool. When cold, ice
+                                with
+                                Chocolate Icing or dust with icing sugar.</li>
+                        </ol>
+                        <p>This recipe is an example of control flow where you must complete each task from top to
+                            bottom.
+                            For each step there are tasks that are repeated until a condition has been met.</p>
+
+                        <h5>Describe what the DOM is and an example of how you might interact with it.</h5>
+                        <p>The DOM (Document Object Model) is a hierarchical structure that the browser uses to make
+                            sense of a document. Everything that makes up the DOM are known as nodes. The nodes of every
+                            document are organized in a tree structure. It is the way through which Javascript can
+                            access and modify elements of a HTML document.</p>
+
+                        <h5>Explain the difference between accessing data from arrays and objects.</h5>
+
+                        <h6>Arrays</h6>
+                        <p>An array stores several pieces of data in one place. Numbers are assigned to each item inside
+                            an
+                            array starting with zero. These index values are used to access data from an array.</p>
+                        <img src="blog-images/sprint-3/array-example.png" alt="Array example">
+
+                        <h6>Objects</h6>
+                        <p>An object is a collection of properties. Each property is a variable with a name and a value.
+                            Dot notation or bracket notation is used to access properties of an object by using the
+                            object
+                            name and property name.</p>
+                        <img src="blog-images/sprint-3/object1-example.png" alt="Object example" id="object">
+                        <p>Dot notation:</p>
+                        <img src="blog-images/sprint-3/object2-example.png" alt="dot notation example">
+                        <p>Bracket notation:</p>
+                        <img src="blog-images/sprint-3/object3-example.png" alt="bracket notation example">
+                        <p>If a property name has a space you must use bracket notation to access the property.</p>
+
+                        <p>Accessing nested properties:</p>
+                        <img src="blog-images/sprint-3/object4-example.png" alt="nested example">
+                       
+                       <h5>Explain what functions are and why they are useful.</h5> 
+
+                        <p>A function is a set of reusable statements which perform a particular task.</p>
+
+                        <p>A function declaration consists of the function keyword, the name of the function, a list of
+                        parameters in parentheses and separated by commas, and enclosed in curly brackets the function
+                        statements. Defining the function doesn't execute the function it only names the function and
+                        specifies what to do when the function is called. Calling the function is what actually invokes
+                        the specified action and includes parameters.</p>
+
+                        <p>Functions are important as it enables you to quickly and easily reuse code. Once the function is
+                        defined, it can be called many times including with different arguments (parameters) to produce
+                        different results.</p>
+
+                    </div>
+                </article>
 
                 <!--Sprint 3 Cultural Blog-->
                 <article class="card Sprint3Culture" id="post4">
@@ -75,7 +189,8 @@
                         <h5>Why is emotional intelligence important?</h5>
                         <p>EQ is important as it allows you to communicate effectively and work productively
                             with
-                            others. It also also allows you to adapt to change and challenges when they arise more easily.</p>
+                            others. It also also allows you to adapt to change and challenges when they arise more
+                            easily.</p>
                     </div>
                 </article>
 
