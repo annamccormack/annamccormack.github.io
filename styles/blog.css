@@ -109,6 +109,10 @@ img {
     margin-bottom: 10px;
 }
 
+#tree {
+    width: 350px;
+}
+
 /* Sprint 2 Technical blog */
 
 .boxmodel {
