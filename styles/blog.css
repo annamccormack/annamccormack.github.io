@@ -59,7 +59,9 @@ h4 {
 h5 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: italic;
 }
 
 
