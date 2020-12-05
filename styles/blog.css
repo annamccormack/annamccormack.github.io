@@ -99,20 +99,25 @@ footer a {
     }
 }
 
-/* Spring 3 Technical */
+/* Sprint 1 Cultural blog */
 
-h6 {
+ul,
+ol {
     font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
+    list-style-position: inside;
 }
 
-img {
-    margin-bottom: 10px;
+/* Sprint 2 Cultural blog */
+
+.images {
+    width: 50%;
+    padding: 10px;
 }
 
-#tree {
-    width: 350px;
+figure {
+    text-align: center;
 }
 
 /* Sprint 2 Technical blog */
@@ -142,23 +147,25 @@ img {
     margin: 10px 0px;
 }
 
-/* Sprint 2 Cultural blog */
+/* Spring 3 Technical */
 
-.images {
-    width: 50%;
-    padding: 10px;
-}
-
-figure {
-    text-align: center;
-}
-
-/* Sprint 1 Cultural blog */
-
-ul,
-ol {
+h6 {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
-    list-style-position: inside;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+#tree {
+    width: 350px;
+}
+
+/* Sprint 4 Technical */
+
+.quote {
+  font-style: italic;
+  padding-bottom: 0px;   
 }
