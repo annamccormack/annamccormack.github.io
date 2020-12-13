@@ -19,6 +19,14 @@ main {
     padding-bottom: 10px;
 }
 
+.postsmenu ul{
+    list-style-position: outside;
+}
+
+.postsmenu li {
+    padding: 4px 0px;
+}
+
 .posts {
     text-decoration: none;
     color: #000;
@@ -101,12 +109,13 @@ footer a {
 
 /* Sprint 1 Cultural blog */
 
-ul,
+.rightcolumn ul,
 ol {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    list-style-position: inside;
+    list-style-position: outside;
+    padding: 15px 15px;
 }
 
 /* Sprint 2 Cultural blog */
@@ -168,4 +177,10 @@ img {
 .quote {
   font-style: italic;
   padding-bottom: 0px;   
+}
+
+/* Sprint 5 Cultural */
+
+.heading {
+    text-transform: uppercase;
 }
