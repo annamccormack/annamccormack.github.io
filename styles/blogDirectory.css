@@ -1,0 +1,34 @@
+.directory {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+
+.directory ul{
+    list-style-position: outside;
+    padding: 
+    
+}
+
+.directory li {
+    padding: 25px;
+    margin: 30px;
+    background-color: #0b296b; 
+    border-radius: 20px;
+}
+
+.postLink {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.postLink:hover {
+    color: #036042;
+}
