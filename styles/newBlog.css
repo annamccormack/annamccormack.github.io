@@ -1,47 +1,8 @@
-main {
-    padding: 20px;
-
-}
-
-.rightcolumn {
-    float: left;
-    width: 75%;
-}
-
-.leftcolumn {
-    float: left;
-    width: 22%;
-    padding-right: 20px;
-}
-
-.postsmenu {
-    list-style-type: none;
-    padding-bottom: 10px;
-}
-
-.postsmenu ul{
-    list-style-position: outside;
-}
-
-.postsmenu li {
-    padding: 4px 0px;
-}
-
-.posts {
-    text-decoration: none;
-    color: #000;
-}
-
-.rightcolumn .card {
+article {
     border: 2px solid #0b296b;
     padding: 30px;
-    margin: 20px 0px 20px 0px;
-
-}
-
-.leftcolumn .card {
-    padding: 20px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 h3 {
@@ -62,7 +23,14 @@ h4 {
     padding-bottom: 10px;
 }
 
+.images {
+    width: 50%;
+    padding: 10px;
+}
 
+figure {
+    text-align: center;
+}
 
 h5 {
     font-family: 'Lato', sans-serif;
@@ -71,7 +39,6 @@ h5 {
     text-transform: capitalize;
     font-style: italic;
 }
-
 
 figcaption {
     font-family: 'Lato', sans-serif;
@@ -93,23 +60,7 @@ footer a {
     text-decoration: none;
 }
 
-.posts:hover {
-    color: #0b296b;
-}
-
-/* Responsive layout */
-@media only screen and (max-width: 800px) {
-
-    .leftcolumn,
-    .rightcolumn {
-        width: 100%;
-        padding: 0;
-    }
-}
-
-/* Sprint 1 Cultural blog */
-
-.rightcolumn ul,
+ul,
 ol {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -117,19 +68,6 @@ ol {
     list-style-position: outside;
     padding: 15px 15px;
 }
-
-/* Sprint 2 Cultural blog */
-
-.images {
-    width: 50%;
-    padding: 10px;
-}
-
-figure {
-    text-align: center;
-}
-
-/* Sprint 2 Technical blog */
 
 .boxmodel {
     width: 500px;
@@ -156,7 +94,7 @@ figure {
     margin: 10px 0px;
 }
 
-/* Spring 3 Technical */
+
 
 h6 {
     font-family: 'Lato', sans-serif;
@@ -172,15 +110,32 @@ img {
     width: 350px;
 }
 
-/* Sprint 4 Technical */
-
 .quote {
   font-style: italic;
   padding-bottom: 0px;   
 }
 
-/* Sprint 5 Cultural */
-
 .heading {
     text-transform: uppercase;
+} 
+
+.reflection {
+    list-style-type: none;
+    font-style: italic ;
+    line-height: 1.6;
+}
+
+hr {
+    border-top: 1px dotted #0b296b;
+}
+
+
+/* responsive: mobile */
+@media only screen and (max-width: 340px) {
+    .title {
+        font-size: calc(20px + 6 * ((100vw - 320px) / 680));
+    }
+    h3 {
+        font-size: calc(30px + 6 * ((100vw - 320px) / 680));
+    }
 }
