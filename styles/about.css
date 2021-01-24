@@ -10,20 +10,32 @@
     line-height: 2;
 }
 
-
 .links {
-    margin: 20px 50px 20px 50px;
-    text-align: left;
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    grid-template-rows: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 5px; 
 }
 
 .links a, .profile {
     text-decoration: none;
-    color: black; 
+    color: black;
 }
 
 .intro {
     padding: 20px;
+}
+
+/*  responsive images */
+
+@media only screen and (max-width: 370px) {
+    .profilephoto {
+        width: 100%;
+        margin: 0px;
+        height: auto;
+        object-fit: contain;
+    }
 }

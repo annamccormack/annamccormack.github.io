@@ -12,8 +12,6 @@ body {
 
 header {
     background-color: #036042;
-    /* min-height: 200px; */
-    margin: 20px 0px;
     min-height: 150px;
 }
 
@@ -103,5 +101,6 @@ h2 {
     img {
         width: 100%;
         height: auto;
+        object-fit: contain;
     }
 }
